@@ -34,3 +34,11 @@ Nossa arquitetura foi pensada para suportar a transição entre o planejamento i
  ┣ 📂 tests                 # Planejamento de validação do sistema
  ┣ 📜 package.json          # Gerenciador de dependências e scripts
  ┗ 📜 README.md             # Apresentação e instruções do projeto
+
+Embora o código ainda não tenha sido escrito, o repositório já está preparado para receber a aplicação Frontend e a documentação técnica:
+
+- **`/docs`**: Contém toda a fase de idealização, fluxos e levantamento de requisitos (Funcionais, Não-funcionais e Regras de Negócio).
+- **`/src/pages`**: Organizará as telas principais (Dashboard de Estoque, Tela de Auditoria, Registro de Entradas/Saídas).
+- **`/src/components`**: Guardará os elementos visuais reutilizáveis em todo o sistema.
+- **`/src/services`**: Concentrará a comunicação com o backend e a validação das lógicas de reposição.
+- **`/tests`**: Separado para os scripts de validação de software e testes unitários das regras de negócio.
