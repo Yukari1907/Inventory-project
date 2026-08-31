@@ -11,15 +11,32 @@ checkpoint 2° semestre 2026 - engenharia de software
 
 ## 🎯 Sobre o Projeto
 
-O **SPI (Sistema de Planejamento e Inventário)** é uma solução de software projetada para automatizar e otimizar a gestão de depósitos. O objetivo principal é garantir precisão e eficiência no controle de entrada, saída, rastreamento de produtos e auditorias de estoque.
+O **SPI (Sistema de Planejamento e Inventário)** é uma solução de software projetada para automatizar o controle de entrada, saída, rastreamento de produtos e auditoria de estoque em depósitos. O objetivo principal do sistema é reduzir erros manuais e dar visibilidade em tempo real sobre a posição e a quantidade do inventário.
+
+O projeto foi pensado para que o funcionário possa responder rapidamente a perguntas críticas da operação diária, como: *"onde está esse produto?"*, *"quantas unidades temos?"*, *"em qual corredor estão armazenadas?"* e *"quanto entrou ou saiu do estoque?"*.
+
+## 🚨 O Problema e a Solução
+
+Atualmente, depósitos com um grande volume de itens armazenados em diferentes corredores sofrem com a falta de um controle centralizado, gerando gargalos operacionais. Este sistema foi desenvolvido para solucionar:
+* A dificuldade e a perda de tempo na separação, movimentação e busca de itens nos corredores.
+* A divergência constante entre a quantidade registrada e a quantidade física existente.
+* O armazenamento desorganizado e as dificuldades em realizar conferências e inventários precisos.
+
+## 👥 Perfis de Usuário
+
+A plataforma atende a diferentes agentes dentro da logística do depósito:
+* **Operador de Depósito:** Registra entradas, saídas e movimentações físicas do dia a dia, controlando a localização dos itens por corredor.
+* **Gestor de Estoque:** Acompanha o dashboard geral, níveis de estoque, aprova reposições e analisa relatório.
+* **Auditor:** Realiza conferências de inventário e consulta o histórico de movimentações.
+* **Administrador:** Cadastra usuários, configura os corredores do depósito e define permissões de acesso.
 
 ## ⚙️ Funcionalidades Principais
 
-* **Controle de Fluxo:** Registro automatizado de entradas e saídas de mercadorias.
-* **Rastreamento de Produtos:** Localização visual e sistêmica de itens dentro do depósito.
-* **Gestão de Reposição:** Alertas de estoque baixo e automação de pedidos.
-* **Auditoria de Estoque:** Contagem cíclica e conferência de inventário.
-* **Autenticação Simulada:** Login de usuários para acesso aos painéis operacionais e gerenciais.
+* **Dashboard de Inventário:** Visão geral do depósito, total de caixas, corredores utilizados e alertas de estoque baixo.
+* **Gestão de Cadastros:** Cadastro de produtos (com estoque mínimo e unidade de medida) e mapeamento de corredores.
+* **Movimentações de Estoque:** Registro de entradas e saídas com atualização automática das quantidades e saldos.
+* **Rastreamento:** Identificação exata de qual corredor e posição um produto está armazenado.
+* **Auditoria de Estoque:** Manutenção de um histórico completo de todas as movimentações (quem fez, o que foi alterado e quando).
 
 ## 📂 Estrutura do Projeto
 
