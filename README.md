@@ -1,6 +1,12 @@
 # Inventory-project
 checkpoint 2° semestre 2026 - engenharia de software
 
+Bruno Takaya - 3ECA - 554986
+Iury Cardoso Araujo - 3ECA - 558850
+Kethely Ester da Silva - 3ECA - 559187
+Raissa Yukari Senoi - 3ECR - 558120
+Vanessa Iris Nobre Ribas - 3ECA - 559211
+
 # 📦 Sistema de Controle de Inventário e Gestão de Depósitos
 
 ## 🎯 Sobre o Projeto
